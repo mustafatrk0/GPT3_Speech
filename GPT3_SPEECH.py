@@ -59,7 +59,7 @@ def response(voice):
         for i in range(10, 0, -1):
             speak(i)
     elif 'ayarları aç' in voice:
-        os.system("start ms-setting")
+        os.system("start ms-settings")
     elif "hangi gündeyiz" in voice:
         today = time.strftime("%A")
         today.capitalize()
