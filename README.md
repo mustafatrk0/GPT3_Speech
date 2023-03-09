@@ -1,7 +1,7 @@
 # GPT3_Speech
 GPT3 API ve TTS konuşmanızı sağlayacak kodları kullanabilirsiniz.
 
-PYTHON 3.6 Versiyonu kullanılmıştır. Bazı modüller desteklenmediği için bu versiyonu tercih ettim.
+<b>PYTHON 3.6</b> Versiyonu kullanılmıştır. Bazı modüller desteklenmediği için bu versiyonu tercih ettim.
 
 Bu kodları çalıştırabilmek için aşağıdaki modülleri yüklemeniz gerekir.
 
