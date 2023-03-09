@@ -19,3 +19,14 @@ Pyttsx3 modülünün türkçe dil desteği yok. Pyttsx3 aslında işletim sistem
 yolunu takip ederek ulaşabilirsiniz. Bende 3. sırada Türkçe TTS TTS_MS_TR-TR_TOLGA_11.0 bulunduğu için kodda <code>voices[2].id</code> şeklinde Microsoft Tolga seçilmiştir.
 ![alt text](https://blog.mustafaergul.net/wp-content/uploads/2023/03/Screenshot_2.png) <br>
 Sizde eğer bu kısımda Microsoft Tolga yoksa eklemelisiniz.
+Eğer TTS olarak Pyttsx3 modülünü kullanmak istemezseniz alternatif olarak gTTS modülünüde kullanabilirsiniz.
+bu modülü kullanmak için;
+<code>pip install gTTS</code><br>
+<code>pip install playsound</code><br>
+bu iki modülü dahil etmeniz gerekir.
+<code>def speak</code> fonksiyonu komutlarını aşağıdaki gibi değiştirmeniz yeterlidir.<br>
+<code>tts = gTTS(text=string, lang="tr", slow=False)
+file = "cvp.mp3"
+tts.save(file)
+playsound(file)
+os.remove(file)</code><br>
