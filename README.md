@@ -9,6 +9,7 @@ Bu kodları çalıştırabilmek için aşağıdaki modülleri yüklemeniz gereki
 <code>pip install SpeechRecognition</code><br>
 <code>pip install DateTime</code><br>
 <code>pip install openai</code><br>
+<code>pip install PyAudio==0.2.11</code><br>
 
 Modülleri yükledikten sonra "YOUR-API" yazan kısıma kendi API kodunuzu eklemeniz gerekir.
 Kendinize API anahtar almak için https://platform.openai.com/account/api-keys adresine gidip yeni bir API oluşturun.
